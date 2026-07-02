@@ -80,7 +80,7 @@ export class WebGLBlendModeConverter {
 			case BlendMode.Normal: return ONE_MINUS_SRC_ALPHA;
 			case BlendMode.Additive: return ONE;
 			case BlendMode.Multiply: return ONE_MINUS_SRC_ALPHA;
-			case BlendMode.Screen: return ONE_MINUS_SRC_ALPHA;
+			case BlendMode.Screen: return ONE_MINUS_SRC_COLOR;
 			default: throw new Error("Unknown blend mode: " + blendMode);
 		}
 	}
@@ -99,8 +99,8 @@ export class WebGLBlendModeConverter {
 		switch (blendMode) {
 			case BlendMode.Normal: return ONE;
 			case BlendMode.Additive: return ONE;
-			case BlendMode.Multiply: return ONE_MINUS_SRC_ALPHA;
-			case BlendMode.Screen: return ONE_MINUS_SRC_COLOR;
+			case BlendMode.Multiply: return ONE;
+			case BlendMode.Screen: return ONE;
 			default: throw new Error("Unknown blend mode: " + blendMode);
 		}
 	}

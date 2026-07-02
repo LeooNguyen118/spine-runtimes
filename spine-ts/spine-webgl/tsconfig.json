@@ -8,7 +8,8 @@
 			"@esotericsoftware/spine-core": [
 				"../spine-core/src"
 			]
-		}
+		},
+		"declaration": true
 	},
 	"include": [
 		"**/*.ts"

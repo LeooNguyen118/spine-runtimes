@@ -1,7 +1,7 @@
 {
-  "name": "@esotericsoftware/spine-webgl",
+  "name": "spine-webgl-fixed",
   "version": "4.0.31",
-  "description": "The official Spine Runtimes for the web.",
+  "description": "The un-official Spine Runtimes for the web. Patched a bug for personal use",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -12,7 +12,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esotericsoftware/spine-runtimes.git"
+    "url": "git+https://github.com/leoonguyen118/spine-runtimes.git"
   },
   "keywords": [
     "gamedev",
@@ -26,9 +26,9 @@
   "author": "Esoteric Software LLC",
   "license": "LicenseRef-LICENSE",
   "bugs": {
-    "url": "https://github.com/esotericsoftware/spine-runtimes/issues"
+    "url": "https://github.com/leoonguyen118/spine-runtimes/issues"
   },
-  "homepage": "https://github.com/esotericsoftware/spine-runtimes#readme",
+  "homepage": "https://github.com/leoonguyen118/spine-runtimes#readme",
   "dependencies": {
     "@esotericsoftware/spine-core": "4.0.31"
   }
